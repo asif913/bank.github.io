@@ -10,7 +10,7 @@ document.getElementById('login-submit').addEventListener('click',function()
     const passwordFild = document.getElementById('user-password');
     const userPassword = passwordFild.value;
     
-    if(userEmail =='azmir.marufa.com' && userPassword == 'nesakhor'||userEmail =='tanvir.mitu.com' && userPassword == 'magibuz'||userEmail=='admin@admin.com'&&userPassword=='admin'){
+    if(userEmail =='azmir.marufa.com' && userPassword == 'nesakhor'||userEmail =='tanvir.mitu.com' && userPassword == 'magibuz'||userEmail=='admin.com'&&userPassword=='admin'){
         window.location.href='banking.html'
 
     }
